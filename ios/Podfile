@@ -12,6 +12,10 @@ target 'GlizbroMobileClient' do
     :hermes_enabled => false
   )
 
+
+
+
+
   target 'GlizbroMobileClientTests' do
     inherit! :complete
     # Pods for testing

@@ -14,6 +14,7 @@
 		1F594F84189548931886D343 /* libPods-GlizbroMobileClient-GlizbroMobileClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C50DF80F180611A4E6A4C0C /* libPods-GlizbroMobileClient-GlizbroMobileClientTests.a */; };
 		64A578DF649ECE268B78169A /* libPods-GlizbroMobileClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC096AD64E3A05A291FF225 /* libPods-GlizbroMobileClient.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F327C8B92705EF3E00589992 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = F327C8B82705EF3E00589992 /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GlizbroMobileClient/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBD2A76E20F72B6CA3F381B6 /* Pods-GlizbroMobileClient-GlizbroMobileClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlizbroMobileClient-GlizbroMobileClientTests.release.xcconfig"; path = "Target Support Files/Pods-GlizbroMobileClient-GlizbroMobileClientTests/Pods-GlizbroMobileClient-GlizbroMobileClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F327C8B82705EF3E00589992 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		F3469DEB089934E10E00F5A3 /* Pods-GlizbroMobileClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlizbroMobileClient.debug.xcconfig"; path = "Target Support Files/Pods-GlizbroMobileClient/Pods-GlizbroMobileClient.debug.xcconfig"; sourceTree = "<group>"; };
 		F7FA3591BD618F2AE5182018 /* Pods-GlizbroMobileClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlizbroMobileClient.release.xcconfig"; path = "Target Support Files/Pods-GlizbroMobileClient/Pods-GlizbroMobileClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,7 +116,6 @@
 				075407D0A621898EDBF6406E /* Pods-GlizbroMobileClient-GlizbroMobileClientTests.debug.xcconfig */,
 				BBD2A76E20F72B6CA3F381B6 /* Pods-GlizbroMobileClient-GlizbroMobileClientTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,12 +129,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				F327C8B82705EF3E00589992 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* GlizbroMobileClient */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* GlizbroMobileClientTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				76CBA48FCFB64D11965A8F2F /* Pods */,
+				C492D9B9150B4CF6ADB97A6D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +150,13 @@
 				00E356EE1AD99517003FC87E /* GlizbroMobileClientTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C492D9B9150B4CF6ADB97A6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +255,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F327C8B92705EF3E00589992 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
